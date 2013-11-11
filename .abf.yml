@@ -1,2 +1,4 @@
+removed_sources:
+  ExtUtils-Command-1.17.tar.gz: 25c4ca941ef4bbd7d4c9fbe1d2039ac289a38cfe
 sources:
-  "ExtUtils-Command-1.17.tar.gz": 25c4ca941ef4bbd7d4c9fbe1d2039ac289a38cfe
+  ExtUtils-Command-1.18.tar.gz: 76fb419ba1eede7296bb66f71ccb874fa3a90784

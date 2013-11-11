@@ -1,15 +1,15 @@
 %define upstream_name    ExtUtils-Command
-%define upstream_version 1.17
+%define upstream_version 1.18
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Utilities to replace common UNIX commands in Makefiles etc
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/ExtUtils/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/ExtUtils/ExtUtils-Command-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Basename)
@@ -54,3 +54,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Jul 16 2009 cpan2dist 1.16-1mdv
 - initial mdv release, generated with cpan2dist
+
